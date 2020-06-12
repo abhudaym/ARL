@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  
 }
 
 a {
@@ -396,6 +397,8 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #3498db;
 }
 
+
+
 #hero .btn-get-started:hover {
   background: #3498db;
   color: #fff;
@@ -412,6 +415,11 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+  }
+
+  .pos-up{
+    position: relative;
+    bottom: 40px;
   }
 }
 
@@ -452,6 +460,18 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
+  }
+
+  .get-started{
+    left: 90px !important;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .hero-img{
+    width: 200px;
+    position: relative;
+    left: 88px;
   }
 }
 
