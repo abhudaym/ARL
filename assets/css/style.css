@@ -1189,6 +1189,28 @@ section {
   opacity: 1;
 }
 
+.member{
+  min-height: 374px;
+}
+
+@media only screen and (max-width: 768px) {
+  .member{
+    min-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .member{
+    min-height: 332px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .member{
+    min-height: 330px;
+  }
+} 
+
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
